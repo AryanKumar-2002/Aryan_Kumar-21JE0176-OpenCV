@@ -75,7 +75,7 @@ for i in range(3):
     for j in range (lower_black[0], upper_black[0]): corrected[np.where((corrected==[j,j,j]).all(axis=2))] = [255, 255, 255]
 
     #Next up, the markers are pasted on the stickerboard, after the blue colour in them has been changed to white.
-    #They are pasted on the exact same location in stcikerboard, as the position of squares in the image.
+    #They are pasted on the exact same location in stickerboard, as the position of squares in the image.
     x_offset, y_offset = squares[i][0][0], squares[i][0][1]
     for k in range (4):
         if squares[i][k][0] < x_offset: x_offset = squares[i][k][0]
