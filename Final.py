@@ -11,7 +11,7 @@ temp = sq.getSquares()
 squares = [temp[1][0], temp[2][0], temp[3][0]]
 
 #gets the ArUco marker images, and stores them in "markers" variable. The cofMarkers then stores their coordinates.
-#Note the markers have been arranged according to their ids. The ids can easily be found using toolos in Aruco.py.
+#Note the markers have been arranged according to their ids. The ids can easily be found using tools in Aruco.py.
 markers =  aruco.getMarkerSources()
 temp,_ = aruco.getMarkersInfo(markers)
 cofMarkers = [temp[1][0], temp[2][0], temp[3][0]]
